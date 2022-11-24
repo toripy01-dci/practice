@@ -8,6 +8,18 @@
 </head>
 
 <body>
+    <!-- headerタグ -->
+    <header>
+        <h1>HTML&CSS練習用</h1>
+        <nav>
+            <ul>
+                <li><a href="#">サービス紹介</a></li>
+                <li><a href="#">料金</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>猫の一日</h1>
     <h2>2022/11/13</h2>
     <h3>見出し３</h3>
@@ -132,10 +144,40 @@
         </select>
     </form>
 
+    <!-- 複数行入力フォーム -->
     コメント
     <form action="example.php" method="post" name="contact-form">
         <textarea name="comment" id="comment-textarea-1" cols="30" rows="10" placeholder="コメントを入力"></textarea>
     </form>
+
+    <!-- ラベル -->
+    <form action="example.php" method="post" name="contact-form">
+        好きな色：
+        <input type="checkbox" name="color" id="checkbox-input-color-red-label" value="1">
+        <label for="checkbox-input-color-red-label">赤</label>
+        <input type="checkbox" name="color" id="checkbox-input-color-blue-label" value="2">
+        <label for="checkbox-input-color-blue-label">青</label>
+        <input type="checkbox" name="color" id="checkbox-input-color-yellow-label" value="3">
+        <label for="checkbox-input-color-yellow-label">黄</label>
+        <input type="checkbox" name="color" id="checkbox-input-color-green-label" value="4">
+        <label for="checkbox-input-color-green-label">緑</label>
+    </form>
+
+    <!-- articleタグ -->
+    <article>
+        <h2>記事タイトル</h2>
+        <p>最新のスマートフォン情報！新機種が発表されましたね！</p>
+    </article>
+
+    <!-- selectionタグ -->
+    <selection>
+        <h2>その他おすすめ記事</h2>
+        <ul>
+            <li><a href="#">スマートウォッチって使える？</a></li>
+            <li><a href="#">ランニングにはこのガジェットがおすすめ！</a></li>
+        </ul>
+    </selection>
+
 
 </body>
 
