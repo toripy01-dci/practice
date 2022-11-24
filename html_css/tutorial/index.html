@@ -1,67 +1,142 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>猫の実態</title>
-        <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
-    </head>
 
-    <body>
-        <h1>猫の一日</h1>
-        <h2>2022/11/13</h2>
-        <h3>見出し３</h3>
-        <h4>見出し４</h4>
-        <h5>見出し５</h5>
-        <h6>見出し７</h6>
-        <p>ひたすら寝ています。</p>
-        <p>その寝顔にとても癒やされます。</p>
-        <h3>youtubeへのリンクは
-            <a href="https://www.youtube.com/user/youtubejapan">こちら</a>
-        </h3>
-        <a href="https://www.youtube.com/user/youtubejapan"><img src="img/sakura.jpg" alt="美しい桜"></a>
-        <h4>メールアドレス宛のリンク</h4>
-        <a href="mailto:toshihb6@outlook.jp">toshihb6@outlook.jp</a>
+<head>
+    <meta charset="UTF-8">
+    <title>猫の実態</title>
+    <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
+</head>
+
+<body>
+    <h1>猫の一日</h1>
+    <h2>2022/11/13</h2>
+    <h3>見出し３</h3>
+    <h4>見出し４</h4>
+    <h5>見出し５</h5>
+    <h6>見出し７</h6>
+    <p>ひたすら寝ています。</p>
+    <p>その寝顔にとても癒やされます。</p>
+    <h3>youtubeへのリンクは
+        <a href="https://www.youtube.com/user/youtubejapan">こちら</a>
+    </h3>
+    <a href="https://www.youtube.com/user/youtubejapan"><img src="img/sakura.jpg" alt="美しい桜"></a>
+    <h4>メールアドレス宛のリンク</h4>
+    <a href="mailto:toshihb6@outlook.jp">toshihb6@outlook.jp</a>
+    <ul>
+        <li>番号なし箇条書き１</li>
+        <li>番号なし箇条書き２</li>
+        <li>番号なし箇条書き３</li>
+    </ul>
+
+    <ul>
+        <li>箇条書き入れ子１</li>
         <ul>
-            <li>番号なし箇条書き１</li>
-            <li>番号なし箇条書き２</li>
-            <li>番号なし箇条書き３</li>
+            <li>リンゴ</li>
+            <li>オレンジ</li>
+            <li>ぶどう</li>
         </ul>
-
+        <li>箇条書き入れ子２</li>
         <ul>
-            <li>箇条書き入れ子１</li>
-            <ul>
-                <li>リンゴ</li>
-                <li>オレンジ</li>
-                <li>ぶどう</li>
-            </ul>
-            <li>箇条書き入れ子２</li>
-            <ul>
-                <li>メロン</li>
-                <li>レモン</li>
-                <li>いちご</li>
-            </ul>
+            <li>メロン</li>
+            <li>レモン</li>
+            <li>いちご</li>
         </ul>
+    </ul>
 
-        <ol>
-            <li>番号あり箇条書き１</li>
-            <li>番号あり箇条書き２</li>
-            <li>番号あり箇条書き３</li>
-        </ol>
+    <ol>
+        <li>番号あり箇条書き１</li>
+        <li>番号あり箇条書き２</li>
+        <li>番号あり箇条書き３</li>
+    </ol>
 
+    <ol>
+        <li>番号あり箇条書き入れ子１</li>
         <ol>
-            <li>番号あり箇条書き入れ子１</li>
-            <ol>
-                <li>リンゴ</li>
-                <li>オレンジ</li>
-                <li>ぶどう</li>
-            </ol>
-            <li>番号あり箇条書き入れ子２</li>
-            <ol>
-                <li>メロン</li>
-                <li>レモン</li>
-                <li>いちご</li>
-            </ol>
+            <li>リンゴ</li>
+            <li>オレンジ</li>
+            <li>ぶどう</li>
         </ol>
-        
-    </body>
+        <li>番号あり箇条書き入れ子２</li>
+        <ol>
+            <li>メロン</li>
+            <li>レモン</li>
+            <li>いちご</li>
+        </ol>
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th>プラン名</th>
+            <th colspan="2">料金</th>
+        </tr>
+        <tr>
+            <td>わくわくプラン</td>
+            <td>月額2,900円</td>
+            <td>1人</td>
+        </tr>
+        <tr>
+            <td>にこにこプラン</td>
+            <td>月額1,900円</td>
+            <td>1人</td>
+        </tr>
+    </table>
+
+    <!-- コメントアウト　ショートカットキー「Ctrl + /」 -->
+
+    <!-- 入力フォーム -->
+    <form action="example.php" method="post" name="contact-form">
+        <input type="text" placeholder="2022/11/23">
+    </form>
+
+    <!-- 検索フォーム -->
+    <form action="example.php" method="post" name="contact-form">
+        <input type="search" name="search-input" id="search-input-1">
+    </form>
+
+    <!-- ラジオボタン -->
+    <form action="example.php" method="post" name="contact-form">
+        性別：
+        <input type="radio" name="gender" id="radio-input-gender-man" value="1">男
+        <input type="radio" name="gender" id="radio-input-gender-woman" value="2">女
+        <input type="radio" name="gender" id="radio-input-gender-other" value="9" checked>回答しない
+    </form>
+
+    <!-- チェックボックス -->
+    <form action="example.php" method="post" name="contact-form">
+        好きな色：
+        <input type="checkbox" name="color" id="checkbox-input-color-red" value="1">赤
+        <input type="checkbox" name="color" id="checkbox-input-color-blue" value="2">青
+        <input type="checkbox" name="color" id="checkbox-input-color-yellow" value="3">黄
+        <input type="checkbox" name="color" id="checkbox-input-color-green" value="4">緑
+    </form>
+
+    <!-- 送信フォーム -->
+    <form action="example.php" method="post" name="contact-form">
+        <input type="submit" name="submit" id="submit-input" value="送信する">
+    </form>
+
+    <!-- 送信フォームに画像設定 -->
+    <form action="example.php" method="post" name="contact-form">
+        <input type="image" src="img/button.png" alt="送信する">
+    </form>
+
+    <!-- セレクトボックス -->
+    <form action="example.php" method="post" name="contact-form">
+        血液型：
+        <select name="bloodtype">
+            <option value="1">A型</option>
+            <option value="2">B型</option>
+            <option value="3">O型</option>
+            <option value="4">AB型</option>
+            <option value="9" selected>不明</option>
+        </select>
+    </form>
+
+    コメント
+    <form action="example.php" method="post" name="contact-form">
+        <textarea name="comment" id="comment-textarea-1" cols="30" rows="10" placeholder="コメントを入力"></textarea>
+    </form>
+
+</body>
+
 </html>
