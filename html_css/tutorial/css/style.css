@@ -13,6 +13,15 @@ h5 {
 p {
     font-size: 20px;
     font-family: "Nikukyu";
+    color: #999;
+}
+
+.blue {
+    color: #0bd;
+}
+
+#orange {
+    color: #fa2;
 }
 
 div {
@@ -35,6 +44,6 @@ ol {
     list-style-position: inside;
 }
 
-li{
+li {
     background: #0bd;
 }
