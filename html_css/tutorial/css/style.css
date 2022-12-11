@@ -25,3 +25,16 @@ div {
     border-color: tomato;
 }
 
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: hiragana;
+    list-style-position: inside;
+}
+
+li{
+    background: #0bd;
+}
