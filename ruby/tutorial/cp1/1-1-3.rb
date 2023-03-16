@@ -1,1 +1,2 @@
-puts 1+4
+class 猫
+    def 

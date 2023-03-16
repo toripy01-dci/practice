@@ -1,5 +1,7 @@
 class User
-    def name
-        "匿名さん"
+    attr_accessor :name, :address, :email
+
+    def profile
+        "#{name}(#{address})"
     end
 end
