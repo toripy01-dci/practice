@@ -1,7 +1,9 @@
 class User
     attr_accessor :name, :address, :email
 
-    def profile
-        "#{name}(#{address})"
+    def initialize(name, address, email)
+        @name = name
+        @address = address
+        @email = email
     end
 end
